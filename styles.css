@@ -11,17 +11,17 @@
     background-color: yellow;
     display: flex;
     align-items: center;
-    position: relative;
+    /* position: relative; */
     
 }
 
-.container img{
+.container .black-cat{
 
    flex-direction: row;
    width: 85px;
    height: 45px;
    position: absolute;
-   left: 0;
+   margin-left: -50px;
    
 }
 
