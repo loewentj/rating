@@ -59,9 +59,7 @@ cat3.addEventListener('click', (e) => {
 
 function catWalk(start, end) {
     let elem = document.getElementById("cat");
-    // let elem1 = document.getElementById("black-cat-static-1");
-    // let elem2 = document.getElementById("black-cat-static-2");
-    // let elem3 = document.getElementById("black-cat-static-3");
+   
     start = 0;
     let id = setInterval(frame, 60);
 
