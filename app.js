@@ -5,6 +5,7 @@ const cat3 = document.getElementById('black-cat-static-3')
 const blackCat = document.querySelector('.container .black-cat');
 const cheer = document.getElementById("cheer"); 
 const boo = document.getElementById("boo"); 
+const comeOn = document.getElementById("come-on"); 
 
 
 cat1.addEventListener('click', (e) => {
@@ -36,6 +37,7 @@ cat2.addEventListener('click', (e) => {
     setTimeout(function () {
         cat2.classList.remove('opacity');
         cat1.classList.remove('opacity');
+        playComeOn();
     }, 9500);
 })
 
@@ -84,4 +86,8 @@ const playCheer = () =>{
 }
 const playBoo = () =>{
     boo.play();
+}
+
+const playComeOn = () =>{
+    comeOn.play();
 }
